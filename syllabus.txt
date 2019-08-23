@@ -1,12 +1,111 @@
 
-     _/_/_/    _/_/_/  _/_/_/_/    _/_/_/        _/  _/  _/      _/
-  _/        _/        _/        _/            _/_/  _/  _/    _/_/
- _/          _/_/    _/_/_/    _/              _/  _/_/_/_/    _/
-_/              _/  _/        _/              _/      _/      _/
- _/_/_/  _/_/_/    _/_/_/_/    _/_/_/        _/      _/      _/
+           _/_/_/    _/_/_/  _/_/_/_/    _/_/_/        _/  _/  _/      _/
+        _/        _/        _/        _/            _/_/  _/  _/    _/_/
+       _/          _/_/    _/_/_/    _/              _/  _/_/_/_/    _/
+      _/              _/  _/        _/              _/      _/      _/
+       _/_/_/  _/_/_/    _/_/_/_/    _/_/_/        _/      _/      _/
 
-               Introduction to Cybersecurity
+                    Introduction to Cybersecurity, Fall 2019
+                              MWF 11a-12p Eliz 205
 
 
+Pre-reqs: CSCI 111 or CSCI 141.
+
+This course provides an overview of the broad range of issues, techniques,
+people, organizations, and recent news related to cybersecurity. It
+explains the ways in which cybersecurity impacts individuals,
+organizations, and states and covers relevant US and international
+laws. This course also exposes students to the various professions
+connected with cybersecurity and provides the terms and concepts that
+are revisited in all other CSEC courses. Students in this course use
+a scripting language such as Python to simulate attacks and understand
+cybersecurity principles.
+
+About Me
+========
+
+Joshua Eckroth, jeckroth@stetson.edu
+Office: Eliz Hall 214, 386-740-2519
+Office hours: TBD
+
+Textbook
+========
+
+You will not need a textbook.
+
+Grading
+=======
+
+- Attendance on work days (usually Fridays): 10%
+- Homeworks: 50%
+- Midterm: 20%
+- Final: 20%
+
+Attendance
+==========
+
+The plan is that every Friday will be a work day (and we'll cover the
+latest news). Attendance is required for these days to ensure that every
+student is engaged with the material and making progress on assignments.
+
+The grading rubric for attendance is as follows, out of 3 points:
+
+- attended at least 75% of work days: 3 pts
+- attended at least 50% of work days: 2 pts
+- attended at least 25% of work days: 1 pt
+- attended fewer than 25% of work days: 0 pts
+
+Homework
+========
+
+Homework is assigned weekly, generally. Homeworks are graded out of
+5 points, based on the percentage of the task that was completely
+satisfactorily.
+
+Midterm and Final
+=================
+
+We will have two exams. The final will be cumulative. Exams are graded
+out of 100 points.
+
+Schedule
+========
+
+Week 1: Internet fundamentals
+Week 2: Scanning and reconnaissance
+Week 3: Domain name system (DNS)
+Week 4: Routing and proxies
+Week 5: Tor and the dark web
+Week 6: Attribution and state-sponsored attacks
+Week 7: Identity and passwords
+Week 8: Hashing and password cracking
+Week 9: Data leaks, laws, policies
+Week 10: Capture-the-Flags (CTFs)
+Week 11: Encryption
+Week 12: SSL and HTTPS, HTTP POST/GET
+Week 13: PGP, asymmetric encryption
+Week 14: Techniques for protecting oneself and organizations
+Week 15: Careers, preview of CSEC major
+
+Honor code
+==========
+
+I am strongly in agreement with the Stetson University Honor Code
+(http://www.stetson.edu/other/honor-system/). Any form of cheating is
+not acceptable, will not be tolerated, and could lead to dismissal from
+the University.
+
+Academic success center
+=======================
+
+If a student anticipates barriers related to the format or requirements
+of a course, she or he should meet with the course instructor to discuss
+ways to ensure full participation. If disability-related accommodations
+are necessary, please register with the Academic Success Center (822-7127;
+www.stetson.edu/asc) and notify the course instructor of your eligibility
+for reasonable accommodations. The student, course instructor,
+and the Academic Success Center will plan how best to coordinate
+accommodations. The Academic Success Center is located at 209 E Bert
+Fish Drive, and can be contacted using the email address asc@stetson.edu.
 
 
