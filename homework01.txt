@@ -1,6 +1,6 @@
 Homework 1
 
-due: Fri Sep 6, 11:59pm
+due: Wed Sep 11, 11:59pm
 
 Write a Python program on londo that asks the user for a website name (e.g., example.com), then asks the user for a filename containing a list of website paths (e.g., robots.txt). Your program should check every line from the file and see if the website has that file, indicated by HTTP code 200 (e.g., if example.com/robots.txt returns HTTP 200). For every website path that returns 200, print a message on the screen with the full path (e.g., example.com/robots.txt).
 
