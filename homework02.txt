@@ -24,3 +24,22 @@ Task 2: Research the common ports used for the following services:
 - Bitcoin
 - Spotify
 
+Call your file "ports.txt"
+
+Turn in your file:
+cp ports.txt /home/jeckroth/csec141/submissions
+
+
+Task 3: Find the IP address and registrar for the following domains:
+
+- artifice.cc
+- nytimes.com
+- google.com
+- guardian.co.uk
+- stetson.edu
+
+Call your file "domains.txt"
+
+Turn in your file:
+cp domains.txt /home/jeckroth/csec141/submissions
+
