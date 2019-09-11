@@ -1,0 +1,26 @@
+Homework 2
+
+due: Wed Sep 18, 11:59pm
+
+
+Task 1: Write a Python program on londo that asks the user for an IP address
+and a starting and ending port number. The program then scans the IP for open
+ports in the range specified. Show all open ports that are found.
+
+Call your program "portscan.py"
+
+You can "turn in" your code by copying it to my directory on londo:
+cp portscan.py /home/jeckroth/csec141/submissions
+
+
+Task 2: Research the common ports used for the following services:
+
+- Web sites, both secure (HTTPS) and non-secure (HTTP)
+- SSH connections (like we do with Putty)
+- DNS (domain name system)
+- Secure email communications (both sending and looking at your inbox)
+- Minecraft and other game servers
+- Torrents
+- Bitcoin
+- Spotify
+
