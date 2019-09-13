@@ -10,7 +10,7 @@ ports in the range specified. Show all open ports that are found.
 Call your program "portscan.py"
 
 You can "turn in" your code by copying it to my directory on londo:
-cp portscan.py /home/jeckroth/csec141/submissions
+cp portscan.py /home/jeckroth/csec141/submissions/portscan-USERNAME.py
 
 
 Task 2: Research the common ports used for the following services:
@@ -27,7 +27,7 @@ Task 2: Research the common ports used for the following services:
 Call your file "ports.txt"
 
 Turn in your file:
-cp ports.txt /home/jeckroth/csec141/submissions
+cp ports.txt /home/jeckroth/csec141/submissions/ports-USERNAME.txt
 
 
 Task 3: Find the IP address and registrar for the following domains:
@@ -41,5 +41,5 @@ Task 3: Find the IP address and registrar for the following domains:
 Call your file "domains.txt"
 
 Turn in your file:
-cp domains.txt /home/jeckroth/csec141/submissions
+cp domains.txt /home/jeckroth/csec141/submissions/domains-USERNAME.txt
 
