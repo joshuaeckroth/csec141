@@ -1,6 +1,6 @@
 Homework 2
 
-due: Wed Sep 18, 11:59pm
+due: Fri Sep 20, 11:59pm
 
 
 Task 1: Write a Python program on londo that asks the user for an IP address
