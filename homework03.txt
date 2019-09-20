@@ -1,0 +1,65 @@
+Homework 3
+
+due: Fri Sep 27, 11:59pm
+
+Task 1: Run nmap on londo.stetson.edu. Activate the options for nmap that find
+the versions of all running software and scan all ports (not just the 1000 that
+nmap normally scans). You can run nmap directly on londo. Run "nmap --help" for
+some information about nmap's options. Save the output to a text file and send
+it to me. Do this by typing your nmap command followed by " | tee nmap.txt"
+(without the quotes), which will send all the messages you see on the screen to
+the file "nmap.txt". Then submit this file to me:
+
+cp nmap.txt /home/jeckroth/csec141/submissions/nmap-USERNAME.txt
+
+
+Task 2: Search for subdomains on artifice.cc. You should find many of my course
+websites among other things. Use subbrute on londo to do this:
+
+/home/jeckroth/csec141/subbrute/subbrute.py --help
+
+Read the help options to learn how to use the program. When you run the program
+to search for subdomains, you'll need to add this to the command:
+
+-r /home/jeckroth/csec141/subbrute/resolvers.txt
+
+Also, save the output to a file by adding " | tee subbrute.txt" to the end of
+the command line.
+
+Submit your findings:
+
+cp subbrute.txt /home/jeckroth/csec141/submissions/subbrute-USERNAME.txt
+
+
+Task 3: Run nikto on the website https://kronos.artifice.cc. Nikto searches for some
+hidden web pages. Run it on londo like so:
+
+/home/jeckroth/csec141/nikto/program/nikto.pl --help
+
+Save the results to a file by adding " | tee nikto.txt" to the end of the
+command. Submit your file:
+
+cp nikto.txt /home/jeckroth/csec141/submissions/nikto-USERNAME.txt
+
+
+Task 4: Run dirb on the website https://localhost (i.e., scan londo itself).
+Dirb searches for hidden web pages. Run on londo like so:
+
+/home/jeckroth/csec141/dirb/dirb
+
+You'll have to provide a word list to perform a scan. Use this wordlist:
+
+/home/jeckroth/csec141/dirb/wordlists/small.txt
+
+Save your output to a file with: " | tee dirb.txt" and submit:
+
+cp dirb.txt /home/jeckroth/csec141/submissions/dirb-USERNAME.txt
+
+
+Task 5: Research how to perform advanced Google searches and write a Google
+search that finds all Microsoft Excel files on Stetson's website(s).
+
+Write the query in a file and submit to me:
+
+cp google.txt /home/jeckroth/csec141/submissions/google-USERNAME.txt
+
