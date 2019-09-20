@@ -7,16 +7,22 @@ Midterm date: Wed Oct 16, in class, on paper
 - IP addresses, what purpose they serve, what a local (non-routable) address looks like
 - Ports, what purpose they serve, some common ports
 - DNS, what purpose it serves, how the hierarchy works
+- Differences and purpose of UDP, TCP, and ICMP packets
+- How "traceroute" works
 
 == Reconnaissance ==
 
 - The purpose of port scanning
 - The purpose of website directory and file scanning
+- What each of these tools can do: nmap, nikto, dirb, subbrute
 
 == Python ==
 
 - How to print messages
 - How to ask for user input
 - How to loop through numbers
-- How to read lines in a file
+- How to loop forever; how to stop a loop
+- How to read lines from a file
+- How to create a dictionary, search for a key, retrieve a value, and add a key/value
+- How to save and load a "pickle" file
 
