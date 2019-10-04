@@ -1,0 +1,27 @@
+Homework 4
+
+due: Fri Oct 11, 11:59pm
+
+Copy my website code to your own directory:
+
+cp -Rv /home/jeckroth/csec141/website-broken homework04
+cd homework04
+
+Fix the website app and templates so the following security features work correctly:
+
+1. Passwords are longer and cannot be easily guessed, and are hidden when typed on the login form.
+2. Usernames cannot be easily discovered (you'll need to think about how this is currently allowed).
+3. Cookies work correctly to make sure you are logged in and you can only see your own private profile.
+4. Cookie random number cannot be easily guessed.
+5. Cookies disappear after a few days, not just when the browser closes (google how to do this).
+6. Login uses POST not GET.
+7. Logout works (you'll need to create this feature).
+
+For submission, create a "tar archive":
+
+tar cvfz homework04-USERNAME.tar.gz .
+
+And then copy it to my folder:
+
+cp homework04-USERNAME.tar.gz /home/jeckroth/csec141/submissions
+
