@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>My Homepage</title>
+</head>
+<body>
+<form method="get" action="/login-submit">
+Username: <input id="user" type="text" name="username" size="30" onkeyup="checkInput();"/>
+<br/>
+Password: <input id="pw" type="password" name="password" size="4" onkeyup="checkInput();"/>
+<br/>
+<input type="checkbox" onclick="hide();"> Show password
+<br/>
+<input id="login" type="submit" value="Login" disabled />
+</form>
+
+<script type="application/javascript">
+function checkInput() {
+	var username = document.getElementById("user").value;
+	var password = document.getElementById("pw").value;
+	var login = document.getElementById("login");
+	if(username.length > 5 && password.length > 3) {
+		login.disabled = false;
+	} else {
+		login.disabled = true;
+	}
+}
+
+function hide() {
+	var input = document.getElementById("pw");
+	if(input.getAttribute("type") == "password") {
+		input.setAttribute("type", "text");
+	} else {
+		input.setAttribute("type", "password");
+	}
+}
+</script>
+
+</body>
+</html>
