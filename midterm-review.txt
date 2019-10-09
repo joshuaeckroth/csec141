@@ -1,6 +1,6 @@
 Midterm Review
 
-Midterm date: Wed Oct 16, in class, on paper
+Midterm date: Wed Oct 16, in class, on blackboard
 
 == How the internet works ==
 
@@ -16,6 +16,17 @@ Midterm date: Wed Oct 16, in class, on paper
 - The purpose of website directory and file scanning
 - What each of these tools can do: nmap, nikto, dirb, subbrute
 
+== Websites ==
+
+- The difference and purpose of GET vs. POST
+- How cookies work and their purpose
+- How forms look in HTML and what they accomplish
+
+== XSS ==
+
+- What XSS means and how it is a cybersecurity threat
+- How to prevent XSS
+
 == Python ==
 
 - How to print messages
@@ -25,4 +36,9 @@ Midterm date: Wed Oct 16, in class, on paper
 - How to read lines from a file
 - How to create a dictionary, search for a key, retrieve a value, and add a key/value
 - How to save and load a "pickle" file
+
+== Python Flask ==
+
+- What is a "route"
+- How to define a very simple route
 
