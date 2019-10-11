@@ -1,6 +1,6 @@
 Homework 4
 
-due: Fri Oct 11, 11:59pm
+due: Mon Oct 14, 11:59pm
 
 Copy my website code to your own directory:
 
