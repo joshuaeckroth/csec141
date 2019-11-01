@@ -1,0 +1,29 @@
+Homework 5
+
+due: Fri Nov 8, 11:59pm
+
+Log in to delenn.stetson.edu (port 2222) with Putty/ssh. You'll have to use the VPN
+if you're off-campus.
+
+Copy the student-created hashes to your own directory:
+
+cp /home/jeckroth/csec141/hashes/student-hashes.txt .
+
+Run hashcat to crack the passwords. Read the documentation to get ideas of techniques:
+https://hashcat.net/wiki/
+
+Make sure you run hashcat with the output file option: -o cracked-passwords.txt
+
+We have dictionaries on delenn in the directory: /bigdata/data/passwords. Feel free to
+explore those and use them in your commands.
+
+We have rules and masks in /usr/share/doc/hashcat. Feel free to explore those, too.
+
+For full credit, you are required to crach XYZ% of them.
+
+Submit your results file:
+
+cp cracked-passwords.txt /home/jeckroth/csec141/submissions/USERNAME-cracked-passwords.txt
+
+^^^^^ CHANGE USERNAME to your own!
+
