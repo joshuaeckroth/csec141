@@ -19,7 +19,11 @@ explore those and use them in your commands.
 
 We have rules and masks in /usr/share/doc/hashcat. Feel free to explore those, too.
 
-For full credit, you are required to crach XYZ% of them.
+Example command for a rule-based attack:
+
+hashcat --status -o cracked-passwords.txt -m 0 -a 0 student-hashes.txt /bigdata/data/passwords/Real-Passwords/Top220-probable.txt -r /usr/share/doc/hashcat/rules/best64.rule
+
+For full credit, you are required to crack 26 of them.
 
 Submit your results file:
 
