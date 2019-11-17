@@ -1,0 +1,36 @@
+Homework 6
+
+due: Fri Nov 22, 11:59pm
+
+Using londo and gpg, complete the following tasks. Create a file, hw6.txt, with
+all the commands that you run. Submit this file to me (see below).
+
+Feel free to examine the files you will use below:
+
+ls /home/jeckroth/csec141/gpg
+
+You must also import my key before you can do anything else:
+
+gpg --keyserver pgp.key-server.io --recv-key 850D41CD
+
+
+1. Verify that I signed this file:
+   /home/jeckroth/csec141/gpg/mobydick.txt.asc
+
+2. Decrypt this file (replace USERNAME with your londo username):
+   /home/jeckroth/csec141/gpg/USERNAME.encrypted.gpg
+
+3. Verify my signature on this file and decrypt it (replace USERNAME):
+   /home/jeckroth/csec141/gpg/USERNAME.signed.encrypted.gpg
+
+4. Write a message in a text file and sign it.
+
+5. Encrypt a message so only I can read it.
+
+6. Encrypt a message so only I can read it and sign the message.
+
+
+Submit your file of commands (replace USERNAME):
+
+cp hw6.txt /home/jeckroth/csec141/submissions/USERNAME-hw6.txt
+
