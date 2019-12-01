@@ -1,0 +1,17 @@
+Homework 7
+
+due: Thur Dec 12, 5:00pm
+
+Complete several WebGoat challenges. We will do these in class, so you can get
+credit by following along in class. Otherwise, they must be completed outside
+of class, and you must email me screenshots of your steps.
+
+Access WebGoat by connecting to delenn with ssh/putty and tunneling port 8100.
+Then use your browser to access http://localhost:8100/WebGoat
+
+- Cross-site request forgeries (steps 1-9)
+- Server-side request forgeries (steps 1-4)
+- Cross-site scripting (steps 1-12)
+- XML external entities (steps 1-8)
+- SQL injection (intro) (steps 1-13)
+
