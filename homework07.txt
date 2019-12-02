@@ -9,7 +9,7 @@ of class, and you must email me screenshots of your steps.
 Access WebGoat by connecting to delenn with ssh/putty and tunneling port 8100.
 Then use your browser to access http://localhost:8100/WebGoat
 
-- Cross-site request forgeries (steps 1-9)
+- Cross-site request forgeries (steps 1-7)
 - Server-side request forgeries (steps 1-4)
 - Cross-site scripting (steps 1-12)
 - XML external entities (steps 1-8)
