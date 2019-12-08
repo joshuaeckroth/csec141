@@ -1,0 +1,54 @@
+Final Review
+
+Final date: Thursday, Dec 12 (5p-7p), in class, on blackboard
+
+== Proxies ==
+
+- their purpose
+- how they work (data intended for machine X is first sent through machine Y)
+  - ssh/putty tunnels are an example
+  - VPN is a proxy also (encrypted)
+
+== Tor ==
+
+- how Tor protects privacy
+- how it is a proxy
+- what a "guard node" and an "exit node" are
+- minimum number of hops
+- how it is like an "onion" of proxies
+- how a "hidden service" works (.onion addresses)
+  - the series of steps to arrange the connection
+- why .onion addresses rather than .com's?
+  - .onion addresses are hashes of the introduction point (and public key of service)
+  - these .onion addresses can be copied (distributed) and cannot be changed
+    without the .onion address changing
+  - if you need to guarantee the address is not forged, it cannot be
+    "human meaningful" i.e. a myname.com
+
+== Hashing ==
+
+- essential features of a hash: non-reversible, always same size, seemingly random
+- hashing algorithms: MD5, SHA#, bcrypt, which ones are "good"
+- what makes a hash "good"
+- what a "work factor" is (repeated hashing)
+- what a "salt" is and why it is important
+- how hash cracking works: guess-and-check, usually with dictionaries & rules
+- be able to describe a good vs. bad password
+- proper way to store passwords (in database or file): hashed, not encrypted!
+- why you should never reuse a password
+
+== Encryption ==
+
+- symmetric encryption: definition
+- asymmetric encryption:
+  - how the two keys work (one "undoes" or "verifies" the other)
+  - scenarios (Alice wants to encrypt message so only Bob can read it, etc.)
+  - signing vs. encrypting
+  - know that public keys are shared and signed (e.g., online databases)
+
+== HTTPS ==
+
+- the role of the certificate, how you get one, who signs it
+
+
+
